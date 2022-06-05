@@ -1,8 +1,14 @@
 # micrometer-registry-aerospike
+[![Build](https://github.com/reugn/micrometer-registry-aerospike/actions/workflows/build.yml/badge.svg)](https://github.com/reugn/micrometer-registry-aerospike/actions/workflows/build.yml)
 
 ## Library tools
 * A [Micrometer](https://micrometer.io/) registry implementation for sending metrics to [Aerospike](https://aerospike.com/).
 * A metric-aware [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java) to collect miscellaneous activity information using one of the Micrometer registries.
+
+## Build
+```sh
+./gradlew clean build
+```
 
 ## Examples
 * Create an Aerospike Micrometer registry. Use `AerospikeConfig` for configuration.
